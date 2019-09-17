@@ -41,4 +41,10 @@ class HomeModel {
       salesBox: SalesBoxModel.fromJson(json['salesBox']),
     );
   }
+
+//  Map<String, dynamic> toJson() {
+//    Map map = new Map();
+//    map["config"] = config;
+//    return map;
+//  }
 }

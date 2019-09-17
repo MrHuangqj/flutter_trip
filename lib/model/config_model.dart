@@ -7,7 +7,7 @@ class ConfigModel {
     return ConfigModel(searchUrl: json['searchUrl']);
   }
 
-//  Map<String, dynamic> toJson() {
-//    return {searchUrl: searchUrl};
-//  }
+  Map<String, dynamic> toJson() {
+    return {searchUrl: searchUrl};
+  }
 }
